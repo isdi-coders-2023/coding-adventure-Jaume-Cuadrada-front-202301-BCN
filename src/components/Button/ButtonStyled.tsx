@@ -6,8 +6,8 @@ const ButtonStyled = styled.button`
   font-weight: 400px;
   font-size: 20px;
   border-radius: 10px;
-  background-color: #cccf18;
-  color: #1e1e1e;
+  background-color: var(--main-color);
+  color: var(--background-color);
   width: 100%;
   height: 40px;
 
