@@ -1,14 +1,21 @@
 @import url(/node_modules/@fontsource/saira-stencil-one/index.css);
 
+:root {
+  --main-color: #cccf18;
+  --background-color: #1e1e1e;
+  --white: #ffffff;
+  --warning-color: #f3949a;
+}
+
 html,
 body {
   width: 100vw;
 }
 
 body {
-  background-color: #1e1e1e;
+  background-color: var(--background-color);
   margin: 0;
-  color: #fff;
+  color: var(--white);
 }
 
 h1,
@@ -22,7 +29,6 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
-  color: #fff;
 }
 
 a,
