@@ -8,13 +8,27 @@ const FormStyled = styled.form`
   font-weight: 700;
   gap: 48px;
 
-  input {
-    width: 100%;
-    height: 40px;
-    border-radius: 8px;
-    padding: 10px;
-    font-size: 19px;
-    border: none;
+  @media (min-width: 575px) {
+    padding: 50px;
+  }
+
+  .form {
+    &__input {
+      width: 100%;
+      height: 40px;
+      border-radius: 8px;
+      padding: 10px;
+      margin: 8px 0 8px 0;
+      font-size: 19px;
+      border: none;
+    }
+    &__feedback {
+      color: var(--warning-color);
+      opacity: 0;
+      &--visible {
+        opacity: 1;
+      }
+    }
   }
 `;
 
