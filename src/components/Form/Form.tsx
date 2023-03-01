@@ -5,7 +5,7 @@ const Form = (): JSX.Element => {
   return (
     <FormStyled className="form">
       <label htmlFor="email">
-        <span className="form__titles">Email</span>
+        Email
         <input
           className="form__input"
           id="email"
@@ -20,7 +20,7 @@ const Form = (): JSX.Element => {
       </label>
 
       <label htmlFor="password">
-        <span className="form__titles">Password</span>
+        Password
         <input
           className="form__input"
           id="password"
@@ -34,7 +34,7 @@ const Form = (): JSX.Element => {
       </label>
 
       <label htmlFor="image">
-        <span className="form-titles">Image</span>
+        Image
         <input
           className="form__input"
           id="image"

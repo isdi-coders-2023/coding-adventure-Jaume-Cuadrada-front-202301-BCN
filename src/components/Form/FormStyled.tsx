@@ -8,10 +8,6 @@ const FormStyled = styled.form`
   font-weight: 700;
   gap: 48px;
 
-  @media (min-width: 575px) {
-    padding: 50px;
-  }
-
   .form {
     &__input {
       width: 100%;
@@ -29,6 +25,10 @@ const FormStyled = styled.form`
         opacity: 1;
       }
     }
+  }
+
+  @media (min-width: 575px) {
+    padding: 50px;
   }
 `;
 
