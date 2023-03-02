@@ -12,6 +12,7 @@ describe("Given a form component", () => {
 
       expect(result).toBeInTheDocument();
     });
+
     test("Then it should show 'Password' texts on screen", () => {
       const expectedContent = "Password";
 
@@ -21,6 +22,7 @@ describe("Given a form component", () => {
 
       expect(result).toBeInTheDocument();
     });
+
     test("Then it should show 'Image' texts on screen", () => {
       const expectedContent = "Image";
 
