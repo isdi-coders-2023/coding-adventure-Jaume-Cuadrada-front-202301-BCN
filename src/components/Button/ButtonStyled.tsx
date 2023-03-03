@@ -11,7 +11,8 @@ const ButtonStyled = styled.button`
   width: 100%;
   height: 40px;
 
-  :disabled {
+  :disabled,
+  button[disabled] {
     opacity: 0.57;
   }
 
